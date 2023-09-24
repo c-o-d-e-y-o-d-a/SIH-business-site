@@ -15,6 +15,7 @@ body{
 }
 .nav-link{
     font-size: 1.2rem;
+    margin-top: 0.3dvh;
 }
 .nav-link:hover{
     color: var(--color4);
@@ -22,7 +23,7 @@ body{
 
 .navbar{
     background-color: white;
-    padding: 3dvh 4dvw 2dvh 3.7dvw;
+    padding: 2dvh 4dvw 0dvh 3.7dvw;
     display: grid;
     grid-template-columns: 3.5fr 1fr 1fr 1fr 1fr ;
     position:fixed;
@@ -34,6 +35,9 @@ body{
     
     
 
+}
+#logo-nav{
+    
 }
 a{
     color: inherit;
@@ -123,7 +127,6 @@ input{
 }
 .form-doctor{
     height: 60dvh;
-    background-color: #b3d6a3;
     padding-bottom: 5dvh;
     
     
@@ -132,8 +135,11 @@ input{
     
 }
 .form-cont{
-    height: 60dvh;
+    height: 90dvh;
     text-align: center;
+    background-color: #b3d6a3;
+    padding-bottom: 20dvh;
+    padding-top: 4dvh;
     
     
 }
@@ -153,6 +159,10 @@ input{
 #submit-button{
     padding: 10px;
     width: 10dvw;   
+}
+#submit-button:hover{
+    cursor: pointer;
+    background-color: #e7e5e5;
 }
 #form-doctor2{
     display: grid;
@@ -180,6 +190,10 @@ input{
 }
 .facility-container2{
     background-color:#235f7d ;
+}
+
+#logo-nav{
+    width: 10dvw;
 }
 
 

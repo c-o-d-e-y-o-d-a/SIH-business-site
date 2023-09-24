@@ -48,7 +48,7 @@ function FormDetails() {
     <>
     
     <div className='form-cont'>
-      <h1 className='doctor-form-head'>Please provide us your details</h1>
+      <h1 className='doctor-form-head'>Doctor Registeration Portal</h1>
       
         <div className='form-doctor' >
           <form action="" id="form-doctor2" method='POST'  >

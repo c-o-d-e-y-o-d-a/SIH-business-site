@@ -1,18 +1,18 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
+
 function Navbar() {
   return (
     
 
        <nav >
   <div className="navbar" >
-    <img src="src/assets/logo-doctor.png" alt="Logo" className="nav-link" id='logo' />
+    <img src="src/assets/logo1.png" alt="Logo"  id='logo-nav' />
     
     <Link to="/" className="nav-link">Home</Link>
     <Link to="/doctors" className="nav-link">Main</Link>
-    <Link to="/Signup" className="nav-link">Sign up</Link>
-    <Link to="/giveDetails" className="nav-link">Add details</Link>
+    <Link to="/giveDetails" className="nav-link">Dr Registration</Link>
   </div>
 </nav>
 
