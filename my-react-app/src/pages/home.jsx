@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar';
 import Facility from '../components/Facility';
 import Contact from '../components/Contact';
 import Facility2 from '../components/Facility2';
+import Discover from '../components/Discover';
 
 
 
@@ -41,7 +42,9 @@ function Home() {
      <Facility2/>
 
      <Facility/>
+     <Discover/>
      <Contact/>
+     
      </div>
 
      

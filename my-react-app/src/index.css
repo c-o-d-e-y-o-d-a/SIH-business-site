@@ -185,7 +185,7 @@ input{
 /*contact us page styling*/
 
  .form-contact{
-    background: linear-gradient(to right, #ea1d6f 0%, #eb466b 100%);
+    background: linear-gradient(to right, #67e9e9 0%, #ef7e97 100%);
     font-size: 12px;
 }
 .facility-container2{
@@ -427,4 +427,106 @@ input {
     .screen-body-item {
         padding: 0;
     }
+}
+
+/*main page code*/
+/* Apply styles to the main container */
+.div-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Style for the main heading (para1) */
+.para1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 20px 0;
+  margin-top: 23dvh;
+}
+
+/* Style for the card section */
+.card-section {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 23dvh;
+  margin-bottom: 10dvh;
+}
+
+/* Style for each card */
+.card {
+  background-color: #f0f0f0;
+  border: 2px solid #8c8888;
+  padding: 20px;
+  margin: 10px;
+  width: 200px; /* Adjust the width as needed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.sub-headin{
+    margin-bottom:2dvh ;
+    font-size: 1.5rem;
+}
+
+.book{
+    margin-top: 2dvh;
+    font-weight: 400;
+}
+
+.rest-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color:rgb(140, 215, 140);
+    height: 90dvh;
+}
+#photo-right{
+    width: 50dvh;
+    height: 50dvh;
+    margin-top: 20dvh;
+}
+.head2{
+    margin-top: 40dvh;
+    margin-left: 8dvw;
+
+}
+
+/*
+discover component styling
+*/
+
+.discover-container{
+    width: 80dvw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #95ecec;
+    border-radius: 20px;
+   align-self: center;
+   align-items: center;
+    text-align: center;
+    margin-left: 6dvw;
+    margin-top: 14dvh;
+    margin-bottom: 14dvh;
+    padding: 40px 40px 40px 40px;
+}
+
+.discover-left{
+    background-color: #89ecc7;
+    padding: 5dvh 10dvh 5dvh 10dvh;
+    border-radius: 20px;
+}
+.dicover-left1{
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+}
+.dicover-left2{
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+}
+.dicover-left3{
+    font-size: 1rem;
+}
+.discover-right{
+    background-color: #1e3029;
 }

@@ -37,8 +37,7 @@ function FormDetails() {
 
     }
     );
-    if(res){alert('done yay');}
-    else{alert("mehhhhhhhh")}
+
 
   };
 
