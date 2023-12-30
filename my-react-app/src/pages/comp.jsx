@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Bottombar from '../components/Bottombar';
 function Comp() {
   return (
     <div className='div-main'>
@@ -38,6 +38,7 @@ function Comp() {
     <img src="src/assets/l.png" alt="" id='photo-right'/>
   </div>
 </div>
+<Bottombar/>
       
     </div>
 

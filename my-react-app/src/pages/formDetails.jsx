@@ -1,4 +1,5 @@
 import React , {useState}from 'react'
+import Bottombar from '../components/Bottombar';
 
 function FormDetails() {
   const [userData,setUserData] = useState({
@@ -65,6 +66,7 @@ function FormDetails() {
         </div>
       
     </div>
+    <Bottombar/>
     </>
   )
 }
