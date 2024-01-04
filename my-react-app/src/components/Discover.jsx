@@ -13,7 +13,7 @@ function Discover() {
     <p className="text-review">
         5stars on google reviews
     </p>
-     <img src="src/assets/5star.png" alt="" id='star5-left-image'/>
+     <img src="./src/assets/5star.png" alt="" id='star5-left-image'/>
     </div>
     <div className="dicover-left4">
         <img src="src/assets/store.png" alt="" id='star5-left-image'/>
