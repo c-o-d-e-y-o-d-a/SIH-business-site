@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import Facility from '../components/Facility';
 import Contact from '../components/Contact';
-import Facility2 from '../components/Facility2';
 import Discover from '../components/Discover';
 import Bottombar from '../components/Bottombar';
 
@@ -40,7 +39,7 @@ function Home() {
 
         
      </div>
-     <Facility2/>
+     
 
      <Facility/>
      <Discover/>

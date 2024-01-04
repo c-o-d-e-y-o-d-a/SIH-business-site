@@ -33,6 +33,10 @@ function Comp() {
       Get the most trusted AI generated medical advice for free !!
 
     </h1>
+
+    <h3 className='h3Tag'>
+      Try Our chatBot today
+    </h3>
   </div>
   <div className="photo">
     <img src="src/assets/l.png" alt="" id='photo-right'/>

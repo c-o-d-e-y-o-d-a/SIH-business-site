@@ -13,16 +13,17 @@ function Discover() {
     <p className="text-review">
         5stars on google reviews
     </p>
+     <img src="src/assets/5star.png" alt="" id='star5-left-image'/>
     </div>
     <div className="dicover-left4">
-        <img src="" alt="" className="app-store1" />
-        <img src="" alt="" className="app-store2" />
+        <img src="src/assets/store.png" alt="" id='star5-left-image'/>
+
     </div>
 
    </div>
    
    <div className="discover-right">
-    <img src="" alt="" id='right-disover-image'/>
+    <img src="src/assets/doctorji-app.png" alt="" id='discover-right-image'/>
 
    </div>
 

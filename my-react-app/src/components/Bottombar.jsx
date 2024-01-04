@@ -1,10 +1,11 @@
 import React from 'react'
 
+
 function Bottombar() {
   return (
-   <>
-   <div className="upper-b-bar">
-    <img src="/assets/logo1.png" alt="" />
+   <div className="bottomBar">
+    <div className="upper-b-bar">
+    <img src="src/assets/logo1.png" alt="Logo"  id='logo-nav' />
     Copyright © 2023 DoctorJi, all rights reserved.
 
 
@@ -35,6 +36,15 @@ function Bottombar() {
 
     </div>
 
+     <div className="link-container-middle-b-bar">
+         <div className="link-middle-b-bar">Legal Services</div>
+        <div className="link-middle-b-bar">Our practises</div>
+        <div className="link-middle-b-bar">Our Background check Process</div>
+        <div className="link-middle-b-bar">Affliations </div>
+        <div className="link-middle-b-bar">Terms And Agreements </div>
+
+    </div>
+
    </div>
 
    <div className="lower-b-bar">
@@ -54,7 +64,9 @@ function Bottombar() {
     </div>
 
    </div>
-   </>
+   
+   </div>
+   
   )
 }
 

@@ -478,7 +478,7 @@ input {
 .rest-page{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color:rgb(140, 215, 140);
+    background:linear-gradient(rgb(140, 215, 140),rgb(111, 163, 197));
     height: 90dvh;
 }
 #photo-right{
@@ -488,6 +488,7 @@ input {
 }
 .head2{
     margin-top: 40dvh;
+    margin-bottom: 1.2dvh;
     margin-left: 8dvw;
 
 }
@@ -509,10 +510,23 @@ discover component styling
     margin-top: 14dvh;
     margin-bottom: 14dvh;
     padding: 40px 40px 40px 40px;
+    box-shadow: inset;
+    box-shadow: 6px 5px 50px -11px rgb(25, 80, 80);
+-webkit-box-shadow: 6px 5px 50px -11px rgba(66,214,214,1);
+-moz-box-shadow: 6px 5px 50px -11px rgba(66,214,214,1);
 }
-
+#discover-right-image{
+    height: 70dvh;
+    width: 35dvh;
+    border-radius: 8px;
+    border: 10px solid yellow;
+}
+#star5-left-image{
+    height: 12dvh;
+    width: 20dvh;
+}
 .discover-left{
-    background-color: #89ecc7;
+    background-color: #95ecec;
     padding: 5dvh 10dvh 5dvh 10dvh;
     border-radius: 20px;
 }
@@ -528,5 +542,42 @@ discover component styling
     font-size: 1rem;
 }
 .discover-right{
-    background-color: #1e3029;
+    background-color: #95ecec;
+}
+
+/*Bottom Bar code*/
+.bottomBar{
+    background-color: #272928;
+    color: #00A8A8;
+    padding: 34px;
+    
+}
+.upper-b-bar{
+    text-align: center;
+    display: grid;
+    margin-bottom: 4dvh;
+}
+.link-middle-b-bar:hover{
+    cursor: pointer;
+    color: #026c6c;
+    opacity: 0.8;
+    
+}
+.middle-b-bar{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bottom-most{
+    text-align: center;
+    margin-top: 4dvh;
+}
+/*comp page mid section styling starts here*/
+.h3Tag{
+    margin-top: 3dvh;
+    font-size: 1.6rem;
+    background-color: #155b4d;
+    display: inline;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    color: white;
 }
