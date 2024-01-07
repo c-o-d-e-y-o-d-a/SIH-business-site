@@ -22,7 +22,7 @@ function Home() {
         </form>
         <div className='hero-section'>
         <div className='left-hero'>
-            <img src="src/assets/doctor.png" alt="" id='doctor-image'/>
+            <img src="./src/assets/doctor.png" alt="" id='doctor-image'/>
 
         </div>
         <div className='right-hero'>
